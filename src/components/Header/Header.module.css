@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color:#F8F8FF;
+    display: flex;
+    justify-content: center;
+}
+
+.layouth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 235px;
+    margin: 40px;
+    width: 1216px;
+}
+
+.layouth h1 {
+    font-size: 40px;
+    font-weight: 500; 
+}
+
+h1 > span {
+    color: #846AFF;
+}
+
+.layouth p {
+    font-size: 24px;
+
+}
+
+.disc {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.button {
+    background-color: #846AFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px;
+    text-transform: uppercase;
+    width: 214px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: #381bca;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    
+.layouth {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+    width: 550px;
+}
+
+img {
+    width: 330px;
+    height: 379px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media (max-width: 425px) {
+
+.layouth {
+    width: 327px;
+}
+
+.layouth h1 {
+    font-size: 24px;
+}
+
+.layouth p {
+    font-size: 16px;
+}
+
+img {
+    width: 207px;
+    height: 240px;
+}
+
+.button {
+    width: 327px;
+}
+
+}

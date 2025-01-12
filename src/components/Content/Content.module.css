@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.layoutc {
+    display: flex;
+    flex-direction: column;
+    gap: 113px;
+    width: 1216px;
+}
+
+.layoutc h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+@media (max-width: 768px) {
+
+.layoutc {
+    display: flex;
+    flex-direction: column;
+    width: 704px;
+    gap: 56px;
+}
+
+.layoutc h1 {
+    font-size: 28px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 32px;
+}
+
+}
+
+@media (max-width: 425px) {
+
+.layoutc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    gap: 40px;
+}
+
+.layoutc h1 {
+    font-size: 24px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+}
+
+}

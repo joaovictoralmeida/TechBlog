@@ -1,2 +1,3 @@
-# TechBlog
- Responsive website
+# Techblog is a responsive website about technology news.
+
+![image]
